@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://ctbcwin4dhbkp"]
+
+[ext_resource type="Script" path="res://Scripts/DatabaseController.cs" id="1_mvq5o"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mvq5o")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Control"]
+layout_mode = 0
+offset_right = 322.0
+offset_bottom = 40.0
+text = "Here is some text"
+fit_content = true
