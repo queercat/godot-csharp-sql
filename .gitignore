@@ -1,3 +1,5 @@
 # Godot 4+ specific ignores
 .godot/
 /Project/.vs
+/.vs
+/Project/_intermediate_
