@@ -1,0 +1,5 @@
+﻿<Project>
+	<PropertyGroup>
+		<MSBuildProjectExtensionsPath>$(MSBuildProjectDirectory)\_intermediate_\</MSBuildProjectExtensionsPath>
+	</PropertyGroup>
+</Project>

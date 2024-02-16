@@ -10,12 +10,13 @@ namespace Project.Database
 {
     public class PrimaryDatabaseContext : DbContext
     {
-        public DbSet<Food> Foods { get; set; }
+        internal DbSet<Food> Foods { get; set; }
         public string ConnectionString { get; set; }
 
         public PrimaryDatabaseContext()
         {
-            ConnectionString = "MY_CONNECTION_STRING";
+            // User ID=postgres;Password=postgres;Host=localhost;Port=5432;Database=database;
+            ConnectionString = "YOUR_CONNECTION_STRING";
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

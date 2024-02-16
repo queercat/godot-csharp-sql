@@ -14,8 +14,8 @@ public partial class DatabaseController : Node
 	public override void _Ready()
 	{
 		_primaryDatabaseContext = new PrimaryDatabaseContext();
-		_richTextLabel = GetNode<RichTextLabel>("Control/RichTextLabel");
-        DoQuery();
+		_richTextLabel = GetNode<RichTextLabel>("RichTextLabel");
+		DoQuery();
 	}
 
 	private async void DoQuery()

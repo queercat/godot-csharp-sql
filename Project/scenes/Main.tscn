@@ -17,5 +17,4 @@ script = ExtResource("1_mvq5o")
 layout_mode = 0
 offset_right = 322.0
 offset_bottom = 40.0
-text = "Here is some text"
 fit_content = true

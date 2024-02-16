@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Project.models
 {
-    public class Food
+    internal class Food
     {
-        public int Id;
-        public string Name;
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
